@@ -7,9 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <PushIOManager/PushIOManager.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@class StoreViewController;
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate, PushIOManagerDelegate> {
+    UINavigationController *nav;
+    
+    UIImageView *splashView;
+    
+}
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) StoreViewController *store;
 
 @end
