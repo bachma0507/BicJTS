@@ -7,7 +7,6 @@
 //
 
 #import "StoreViewController.h"
-//#import "ReceiptCheck.h"
 #import "MBProgressHUD.h"
 #import <QuartzCore/QuartzCore.h>
 
